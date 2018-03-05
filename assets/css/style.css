@@ -37,8 +37,12 @@ li {
 .box {
     background: #ffffff;
     border: solid #dddddd 1px;
-    position: static;
-    padding: 30px;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+
+aside.box h3 {
+    text-align: center;
 }
 
 .width {
@@ -62,14 +66,22 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 10%; 
-    margin-top: 10px; 
-    border-top: 8px #4aaaa5 solid;
-    box-sizing: border-box;
+    height: 50px;  
+    border-top: 5px #4aaaa5 solid;
 }
 
 footer h6 {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
+}
+
+.connect {
+    width: 80%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
 }
 
