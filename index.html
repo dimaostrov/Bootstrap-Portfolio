@@ -8,6 +8,7 @@
     <title>Bootstrap Stylized Personal Portfolio</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
@@ -18,7 +19,7 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">About
@@ -31,29 +32,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
-                    
+
                 </ul>
             </div>
         </div>
     </nav>
 
-
-
-
-    <footer class="container-fluid fixed-bottom">
-        <p class="text-center">© 2016 Copyright Dmitriy Ostrovskiy</p>
-    </footer>
-</body>
-
-</html>
-
-
-
-
-
-<!--
-    
-<img class="img-fluid profile" src="assets/images/profiel.jpg" alt="profile picture">
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-8 col-sm-12 col-lg-8 jumbotron my-3 pb-1 pt-4">
+                <img class="w-50 img-fluid rounded float-left profile mr-4" src="assets/images/profiel.jpg" alt="profile picture">
                 <p>I was born in Ukraine and came here in 1998, the year of Fifa, when Zenedine Zidan scored those decisive
                     goals against Brazil in the French World Cup. You can tell I loved soccer, or footbal. Then I came to
                     USA where I studied in Gardner Street School. Everyone there was Russian-speaking and it was easy to
@@ -73,29 +61,46 @@
                 <p>I've studied SQL and Python but never towards any monetary gain, so I've decided to learn React and web development
                     in depth. Thank you for reading</p>
                 <p>TLDR: Lets learn web development together!!!</p>
+            </div>
+            <div class="col-1">
 
             </div>
-           
-                    <h3>Connect with Me</h3>
-                    <hr>
-                    <ul>
-                        <li>
-                            <a href="https://github.com/dimaostrov/">
-                                <img src="assets/images/github.png" alt="github logo" class="connect">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/dmitriy-ostrovskiy-b0480625/">
-                                <img src="assets/images/linkedin.png" alt="linkedin logo" class="connect">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/users/story/9411028">
-                                <img src="assets/images/stacko.png" alt="stack overflow logo" class="connect">
-                            </a>
-                        </li>
-                    </ul>
-                </aside>
+            <div class="col-3 col-sm-12 col-lg-3 jumbotron my-3 pt-4 h-25">
+                <h3 class="text-center">Connect with Me</h3>
+                <hr>
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <a href="https://github.com/dimaostrov/">
+                            <img src="assets/images/github.png" alt="github logo" class="w-75">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/in/dmitriy-ostrovskiy-b0480625/">
+                            <img src="assets/images/linkedin.png" alt="linkedin logo" class="w-75">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://stackoverflow.com/users/story/9411028">
+                            <img src="assets/images/stacko.png" alt="stack overflow logo" class="w-75">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-            -->
+
+
+    <footer class="container-fluid fixed-bottom">
+        <p class="text-center">© 2016 Copyright Dmitriy Ostrovskiy</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
